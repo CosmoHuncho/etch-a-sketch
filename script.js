@@ -17,7 +17,7 @@ for (let i = 0; i < 16; i++) {
         const square = document.createElement("div");
         square.classList.add("square");
 
-        square.addEventListener('mouseenter', () => {
+        square.addEventListener('click', () => {
             square.style.backgroundColor = '#3498db';
         });
 
@@ -40,7 +40,7 @@ function makeGrid(promptChoice){
             const square = document.createElement("div");
             square.classList.add("square");
 
-            square.addEventListener('mouseenter', () => {
+            square.addEventListener('click', () => {
                 square.style.backgroundColor = '#3498db';
             });
 
